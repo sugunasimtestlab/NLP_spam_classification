@@ -1,19 +1,25 @@
-#NLP Spam Classification
+# 📌 NLP Spam Classification using Machine Learning
 
-🚀 Detecting Spam with NLP & Machine Learning! 🔍
+## 🚀 Project Overview
+This project focuses on **Spam Message Classification** using **Natural Language Processing (NLP)** and **Machine Learning techniques**. The goal is to build a model that can classify SMS messages as **spam** or **not spam (ham)**.
 
-Did you know that 45% of all emails are spam? 📩 Identifying spam is a real challenge in cybersecurity, so I built an NLP-based Spam Classifier!
+## 🛠️ Tech Stack
+- **Python** 🐍
+- **NLTK** (Natural Language Processing Toolkit)
+- **Scikit-learn** (Machine Learning)
+- **Pandas & NumPy** (Data Handling)
+- **SMOTE (Imbalanced Data Handling)**
 
-🔹 Tech Stack & Process:
-✅ Cleaned & preprocessed text (stopwords removal, stemming)
-✅ Used CountVectorizer for feature extraction
-✅ Trained a Multinomial Naïve Bayes model for classification
-✅ Applied SMOTE to handle class imbalance
-✅ Achieved high accuracy & F1-score in detecting spam! 🎯
+## 📌 Workflow
+1. **Data Preprocessing**  
+   - Remove stopwords, punctuations, and apply stemming  
+   - Convert text into numerical features using **CountVectorizer**  
+2. **Data Balancing**  
+   - Applied **SMOTE (Synthetic Minority Over-sampling Technique)**  
+3. **Model Training**  
+   - Used **Naïve Bayes Classifier** for classification  
+4. **Evaluation**  
+   - Achieved high accuracy with **classification report & confusion matrix**  
 
-📊 Key Takeaways:
-✔ NLP techniques like stemming & tokenization improve classification
-✔ Balancing data (using SMOTE) prevents biased models
-✔ Choosing the right ML model makes a big difference!
-
-#NLP #MachineLearning #DataScience #SpamDetection #TextMining #ArtificialIntelligence
+## 📊 Results
+The model was successfully trained and tested, achieving high accuracy in spam detection.
